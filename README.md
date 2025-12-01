@@ -20,6 +20,7 @@ pip install -r requirements.txt
 OPENAI_API_KEY=...
 
 # seed set for reproducibility. Not 100% guaranteed
+cd kinetic
 python3 generate_dataset.py --samples 1000 --seed 42
 
 # Run both baselines on the output (replace with your output directory)
