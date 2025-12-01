@@ -2,9 +2,7 @@
 
 Synthetic datasets to test discovering hidden features in data
 
-Check out [gutenberg.ai/baskerville](gutenberg.ai/baskerville)
-
-Methodology for Baskerville [here](https://gutenberg.ai/blog/interp_data_science/)
+Explanation + video here: [http://gutenberg.ai/baskerville](http://gutenberg.ai/baskerville)
 
 kinetic/ is an example with short text, single label
 todo
