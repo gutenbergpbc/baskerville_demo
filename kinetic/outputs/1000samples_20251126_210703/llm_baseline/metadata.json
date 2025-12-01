@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-01T23:00:28.053983",
+  "model": "gpt-4o-mini",
+  "n_samples": 1000,
+  "prompt_length": 170715,
+  "response_length": 4211,
+  "usage": {
+    "prompt_tokens": 43642,
+    "completion_tokens": 908
+  }
+}
