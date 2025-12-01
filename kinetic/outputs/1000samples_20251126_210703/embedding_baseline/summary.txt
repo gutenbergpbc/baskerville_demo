@@ -1,0 +1,34 @@
+# Embedding Baseline: K-Means + LLM Interpretation
+Overall response rate: 6.7%
+Total samples: 1000
+
+
+## k=2
+- Cluster 0: 278 samples, 5.8% [AVG]
+- Cluster 1: 722 samples, 7.1% [AVG]
+
+## k=3
+- Cluster 0: 503 samples, 7.8% [AVG]
+- Cluster 1: 219 samples, 5.5% [AVG]
+- Cluster 2: 278 samples, 5.8% [AVG]
+
+## k=4
+- Cluster 0: 225 samples, 9.3% [AVG]
+- Cluster 1: 277 samples, 5.4% [AVG]
+- Cluster 2: 284 samples, 6.7% [AVG]
+- Cluster 3: 214 samples, 5.6% [AVG]
+
+## k=5
+- Cluster 0: 211 samples, 5.7% [AVG]
+- Cluster 1: 106 samples, 9.4% [AVG]
+- Cluster 2: 123 samples, 5.7% [AVG]
+- Cluster 3: 277 samples, 5.4% [AVG]
+- Cluster 4: 283 samples, 8.1% [AVG]
+
+## k=6
+- Cluster 0: 211 samples, 3.8% [AVG]
+- Cluster 1: 211 samples, 5.7% [AVG]
+- Cluster 2: 240 samples, 7.1% [AVG]
+- Cluster 3: 66 samples, 10.6% [HIGH]
+- Cluster 4: 166 samples, 7.8% [AVG]
+- Cluster 5: 106 samples, 9.4% [AVG]
