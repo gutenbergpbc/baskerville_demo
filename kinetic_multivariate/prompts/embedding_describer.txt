@@ -1,0 +1,25 @@
+Here are {$N_MESSAGES} marketing SMS messages that were grouped together by an embedding-based clustering algorithm.
+
+This cluster has a {$RESPONSE_RATE} positive response rate (users indicating interest).
+Locale distribution in this cluster: {$LOCALE_DISTRIBUTION}
+
+Messages in this cluster (with locale in brackets):
+{$MESSAGES}
+
+Your task is to identify feature(s) this cluster represents, which can explain why users are interested.
+
+Each **feature** can be:
+- A topic, subject, concept, or idea
+- A type of language, style, tone, or sentiment
+- A specific linguistic, rhetorical, or syntactic pattern
+- Locale-specific patterns (are different features effective in different locales?)
+- Or any other identifiable textual property
+
+Pay attention to whether the locale distribution in this cluster differs from the overall dataset, and whether certain message features might resonate differently with different markets.
+
+Return a list of all identified features that might make a message effective with:
+- A description of the feature
+- How many messages contain the feature
+- The response rate for messages with the feature
+- Whether the feature interacts with locale
+- A short explanation of why this is interesting

@@ -1,0 +1,22 @@
+You are analyzing marketing messages to identify which persuasion techniques are being used.
+
+Given a marketing message, identify ALL applicable tags from the following list:
+
+TAGS:
+- utility: Message focuses on performance, functionality, or what the product helps you do
+- urgency: Message creates time pressure or scarcity (limited time, low stock, etc.)
+- value: Message emphasizes savings, deals, or price benefits
+- celebrity: Message mentions the endorsement or usage by a celebrity by name, such as Usain Bolt or David Goggins
+- sustainability: Message mentions eco-friendly aspects, recycled materials, or environmental benefits
+- weather: Message mentions the shoes are water-resistant, or perform under any weather conditions like rain or snow
+
+A message can have multiple tags. Only include tags that clearly apply.
+
+Output a JSON object with a single key "tags" containing an array of applicable tag names.
+
+Example outputs:
+{"tags": ["utility"]}
+{"tags": ["celebrity", "urgency"]}
+{"tags": ["value", "sustainability"]}
+
+Output ONLY the JSON object, nothing else.

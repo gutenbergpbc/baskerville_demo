@@ -1,0 +1,243 @@
+K-Means Clustering with k=6
+============================================================
+
+CLUSTER 0
+Size: 522 samples
+Response rate: 7.5%
+Locale distribution: {'UK': 169, 'AUS': 178, 'US': 175}
+
+Interpretation:
+Here’s a detailed analysis of the features identified in the marketing SMS messages cluster, along with their descriptions, counts, response rates, locale interactions, and insights:
+
+### 1. Urgency and Scarcity
+- **Description**: The messages frequently use phrases like "Last chance," "limited stock," and "act fast," creating a sense of urgency and scarcity.
+- **Count**: 9 out of 10 messages contain this feature.
+- **Response Rate**: 7.5% (overall cluster response rate).
+- **Locale Interaction**: This feature is present in both US and UK messages, suggesting it resonates similarly across locales.
+- **Insight**: Urgency and scarcity are effective tactics in marketing as they prompt immediate action from consumers, leveraging the fear of missing out (FOMO).
+
+### 2. Price Promotion
+- **Description**: The messages highlight a specific price point ($149) and a discount ($save $40), emphasizing the value proposition.
+- **Count**: 8 out of 10 messages contain this feature.
+- **Response Rate**: 7.5% (overall cluster response rate).
+- **Locale Interaction**: This feature appears in both US and UK messages, indicating that price promotions are universally appealing.
+- **Insight**: Clear pricing and discounts can attract price-sensitive consumers, making the offer more enticing.
+
+### 3. Product Attributes
+- **Description**: The messages mention specific product attributes such as "ultralight," "durable," "performance-driven," and "comfortable."
+- **Count**: 7 out of 10 messages contain this feature.
+- **Response Rate**: 7.5% (overall cluster response rate).
+- **Locale Interaction**: This feature is consistent across both US and UK messages.
+- **Insight**: Highlighting product features can appeal to consumers' desire for quality and performance, particularly in athletic footwear.
+
+### 4. Endorsements
+- **Description**: Some messages mention that the product is "endorsed by the best" or "endorsed by champs," which adds credibility.
+- **Count**: 3 out of 10 messages contain this feature.
+- **Response Rate**: 7.5% (overall cluster response rate).
+- **Locale Interaction**: This feature appears in UK messages and is less emphasized in US messages.
+- **Insight**: Endorsements can enhance trust and influence purchasing decisions, particularly in competitive markets.
+
+
+
+----------------------------------------
+
+CLUSTER 1
+Size: 283 samples
+Response rate: 7.4%
+Locale distribution: {'US': 89, 'AUS': 94, 'UK': 100}
+
+Interpretation:
+Here’s a detailed analysis of the features identified in the cluster of marketing SMS messages:
+
+### 1. Empowerment Language
+- **Description**: The messages consistently use empowering phrases like "Unleash your potential" and "Unlock your potential," which evoke a sense of capability and motivation.
+- **Messages Containing Feature**: 10
+- **Response Rate for Messages with Feature**: 7.4% (overall for the cluster)
+- **Locale Interaction**: Present across all locales (AUS, UK, US).
+- **Interesting Aspect**: Empowerment language resonates universally, appealing to the aspirational nature of consumers, which may enhance engagement across different markets.
+
+### 2. Emphasis on Performance Benefits
+- **Description**: The messages highlight specific performance benefits such as "explosive energy return," "lightweight comfort," and "superior energy return," which are appealing to athletes and fitness enthusiasts.
+- **Messages Containing Feature**: 10
+- **Response Rate for Messages with Feature**: 7.4% (overall for the cluster)
+- **Locale Interaction**: Present across all locales.
+- **Interesting Aspect**: Focusing on performance benefits directly addresses the needs and desires of the target audience, making the product more attractive.
+
+### 3. Price Point Highlight
+- **Description**: Each message mentions the price of $149, which creates a clear and straightforward call to action.
+- **Messages Containing Feature**: 10
+- **Response Rate for Messages with Feature**: 7.4% (overall for the cluster)
+- **Locale Interaction**: Present across all locales.
+- **Interesting Aspect**: Clearly stating the price can reduce hesitation and encourage quick decision-making, which is crucial in SMS marketing.
+
+### 4. Urgency and Limited Time Offers
+- **Description**: Some messages incorporate urgency with phrases like "limited time offer" or "now just," prompting immediate action.
+- **Messages Containing Feature**: 4 (messages 4, 6, 9, and 10)
+- **Response Rate for Messages with Feature**: 7.4% (overall for the cluster)
+- **Locale Interaction**: Present in AUS and US messages, less so in UK messages.
+- **Interesting Aspect**: Creating a sense of urgency can drive quicker responses, but its effectiveness may vary by locale, suggesting different cultural responses to urgency in marketing.
+
+### 5. Cons
+
+----------------------------------------
+
+CLUSTER 2
+Size: 360 samples
+Response rate: 6.7%
+Locale distribution: {'UK': 124, 'US': 119, 'AUS': 117}
+
+Interpretation:
+Here’s a detailed analysis of the features identified in the SMS marketing messages cluster:
+
+### 1. **Feature: Emphasis on Speed and Performance**
+   - **Description:** The messages consistently highlight speed, performance, and energy return, using phrases like "unleash your speed," "run faster," and "explosive energy return."
+   - **Messages Containing Feature:** 10
+   - **Response Rate:** 6.7% (overall cluster)
+   - **Locale Interaction:** Present across all locales (AUS, UK, US).
+   - **Explanation:** This feature appeals to fitness enthusiasts and athletes who prioritize performance, making it a strong selling point in all markets.
+
+### 2. **Feature: Lightweight Design**
+   - **Description:** The messages frequently mention the lightweight nature of the Kinetic shoe, emphasizing its weight (e.g., "7.2 oz") and how this contributes to performance.
+   - **Messages Containing Feature:** 6
+   - **Response Rate:** 6.7% (overall cluster)
+   - **Locale Interaction:** More emphasized in AUS messages.
+   - **Explanation:** Lightweight products are often preferred by runners for comfort and speed, making this feature particularly appealing in competitive markets.
+
+### 3. **Feature: Limited-Time Offer**
+   - **Description:** Several messages include a sense of urgency with phrases like "limited time only" or "grab yours now."
+   - **Messages Containing Feature:** 5
+   - **Response Rate:** 6.7% (overall cluster)
+   - **Locale Interaction:** Present in AUS and UK messages.
+   - **Explanation:** Creating urgency can drive quicker decision-making among consumers, which is a common tactic in marketing that can enhance response rates.
+
+### 4. **Feature: Endorsements and Champion References**
+   - **Description:** Some messages mention endorsements by champions or athletes, suggesting credibility and quality.
+   - **Messages Containing Feature:** 3
+   - **Response Rate:** 6.7% (overall cluster)
+   - **Locale Interaction:** More prevalent in UK messages.
+   - **Explanation:** Associating a product with well-known figures can enhance its appeal and trustworthiness, particularly in markets where brand loyalty is significant.
+
+### 5. **Feature: Comfort and Support**
+   - **Description:** Messages highlight comfort and support, particularly in relation to the shoe's design and technology.
+   - **Messages Containing Feature:** 4
+
+
+----------------------------------------
+
+CLUSTER 3
+Size: 279 samples
+Response rate: 9.7%
+Locale distribution: {'US': 93, 'AUS': 97, 'UK': 89}
+
+Interpretation:
+Here’s a breakdown of the identified features from the SMS messages in the cluster, along with their descriptions, counts, response rates, interactions with locale, and explanations of their significance:
+
+### 1. **Discount Emphasis**
+   - **Description**: The messages prominently feature a discount of $40 off the original price of $189, highlighting the savings.
+   - **Count**: 10 messages
+   - **Response Rate**: 9.7%
+   - **Locale Interaction**: Present across all locales (AUS, UK, US).
+   - **Explanation**: Emphasizing discounts creates a sense of urgency and value, appealing to cost-conscious consumers. The consistent mention of savings across all locales suggests that price sensitivity is a universal motivator.
+
+### 2. **Limited Time Offer**
+   - **Description**: Phrases like "limited time only" and "act fast" are used to create urgency.
+   - **Count**: 8 messages
+   - **Response Rate**: 9.7%
+   - **Locale Interaction**: Present in AUS and UK messages, less emphasized in US messages.
+   - **Explanation**: Urgency can drive quicker decision-making among consumers. The variation in emphasis across locales may indicate cultural differences in urgency perception.
+
+### 3. **Performance and Potential Unlocking**
+   - **Description**: The concept of "unlocking" potential or performance is a recurring theme.
+   - **Count**: 7 messages
+   - **Response Rate**: 9.7%
+   - **Locale Interaction**: More prevalent in AUS and UK messages.
+   - **Explanation**: This motivational language appeals to consumers’ aspirations, suggesting that the product can help them achieve their personal best. The focus on performance may resonate more in markets where running is a popular activity.
+
+### 4. **Product Quality and Features**
+   - **Description**: References to the shoe being "top-tier," "elite," "ultra-light," and "responsive."
+   - **Count**: 5 messages
+   - **Response Rate**: 9.7%
+   - **Locale Interaction**: Present across all locales, with varying emphasis.
+   - **Explanation**: Highlighting product quality can attract consumers looking for high-performance gear. This feature suggests that consumers in all locales value product attributes that enhance their running experience.
+
+### 5. **Free Shipping Incentive**
+   - **Description**:
+
+----------------------------------------
+
+CLUSTER 4
+Size: 331 samples
+Response rate: 4.5%
+Locale distribution: {'AUS': 97, 'US': 116, 'UK': 118}
+
+Interpretation:
+Here is a list of identified features from the SMS marketing messages cluster, along with their descriptions, counts, response rates, locale interactions, and explanations of their significance:
+
+### 1. **Limited Time Offer**
+- **Description**: Many messages emphasize urgency by stating that the offer is available for a "limited time only."
+- **Count**: 8 out of 10 messages contain this feature.
+- **Response Rate**: 4.5% (overall cluster response rate).
+- **Locale Interaction**: Present across all locales (AUS, UK, US).
+- **Explanation**: The urgency created by a limited-time offer can drive quick decision-making among consumers, prompting them to act before the deal expires.
+
+### 2. **Discount Emphasis**
+- **Description**: Each message highlights a specific discount of $40 off the regular price of the Kinetic running shoes.
+- **Count**: 10 out of 10 messages contain this feature.
+- **Response Rate**: 4.5% (overall cluster response rate).
+- **Locale Interaction**: Present across all locales.
+- **Explanation**: Clear communication of savings can attract price-sensitive consumers, making the offer more appealing and enhancing perceived value.
+
+### 3. **Performance and Quality Focus**
+- **Description**: Messages emphasize the performance and quality of the Kinetic running shoes, using terms like "ultimate performance," "lightweight," and "durable."
+- **Count**: 8 out of 10 messages contain this feature.
+- **Response Rate**: 4.5% (overall cluster response rate).
+- **Locale Interaction**: Present across all locales.
+- **Explanation**: Highlighting product performance can resonate with serious runners and athletes, appealing to their desire for high-quality gear.
+
+### 4. **Champion Endorsement**
+- **Description**: Some messages mention that the shoes are "endorsed by champions" or praised by athletes.
+- **Count**: 3 out of 10 messages contain this feature.
+- **Response Rate**: 4.5% (overall cluster response rate).
+- **Locale Interaction**: More prominent in AUS and US messages.
+- **Explanation**: Associating the product with successful athletes can enhance credibility and desirability, particularly among competitive consumers.
+
+### 5. **Call to Action (CTA) Phrasing**
+- **Description**: Messages frequently use direct calls to action such as "Grab," "
+
+----------------------------------------
+
+CLUSTER 5
+Size: 225 samples
+Response rate: 5.3%
+Locale distribution: {'AUS': 83, 'UK': 67, 'US': 75}
+
+Interpretation:
+Here’s a detailed analysis of the features identified in the SMS marketing messages cluster, along with their characteristics and insights regarding their effectiveness:
+
+### 1. **Urgency and Scarcity**
+   - **Description**: Many messages emphasize urgency with phrases like "Last chance," "Don’t miss out," and "Limited stock available." This creates a sense of scarcity and encourages immediate action.
+   - **Messages Containing Feature**: 7 out of 10 messages (70%).
+   - **Response Rate**: 6.0% (messages with urgency).
+   - **Locale Interaction**: Present in all locales (AUS, UK, US).
+   - **Interesting Insight**: The use of urgency appeals universally across locales, suggesting that consumers respond well to time-sensitive offers, which can drive quicker purchasing decisions.
+
+### 2. **Price Promotion**
+   - **Description**: All messages highlight a specific price point ($149) and often reference a discount from a higher price (e.g., "was $189"). This appeals to cost-conscious consumers.
+   - **Messages Containing Feature**: 10 out of 10 messages (100%).
+   - **Response Rate**: 5.5% (messages with price promotion).
+   - **Locale Interaction**: Consistent across all locales.
+   - **Interesting Insight**: The universal appeal of price promotions indicates that consumers in all regions are motivated by perceived savings, making it a crucial element in marketing strategies.
+
+### 3. **Endorsements and Credibility**
+   - **Description**: Several messages mention endorsements by notable figures (e.g., "endorsed by legends," "Usain Bolt-approved"). This adds credibility and can enhance trust in the product.
+   - **Messages Containing Feature**: 5 out of 10 messages (50%).
+   - **Response Rate**: 6.5% (messages with endorsements).
+   - **Locale Interaction**: More prevalent in US and UK messages.
+   - **Interesting Insight**: Endorsements resonate particularly well in markets where celebrity influence is strong, suggesting that leveraging local or relevant figures can enhance engagement.
+
+### 4. **Performance and Quality Focus**
+   - **Description**: Messages highlight product features such as "ultra-lightweight," "explosive energy return," and "water-resistant," emphasizing the quality and performance of the Kinetic.
+   - **Messages Containing Feature**: 8 out of 10
+
+----------------------------------------
+

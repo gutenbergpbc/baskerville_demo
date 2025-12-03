@@ -46,3 +46,17 @@ RESPONSE_RATES = {
 They have this **hidden preference** for mentions of sustainability. So messages about how the shoe is carbon-neutral will make it into the dataset and have a higher response rate. As a marketing company, you would love to discover this hidden preference.
 
 Baselines fail to capture this. baseline/llm_baseline.py and baseline/embedding_baseline.py are based off of the work done [here](https://www.alignmentforum.org/posts/a4EDinzAYtRwpNmx9/towards-data-centric-interpretability-with-sparse).
+
+## kinetic multivariate
+Similar to kinetic, but now each message includes the user's `locale`, which is evenly split between US, UK, and AUS.
+The hidden preference is now specific to locales + style. Namely
+if US and 'celebrity': 10%
+elif UK and 'weather': 10%
+elif AUS and 'sustainability': 10%
+else: 7%
+
+The prompts/tags have been tweaked to not explicitly encourage talking about celebrity endorsement, weather-proofness, or sustainability, although like the above, some examples make their way in, such as in the included run in outputs/
+
+This is designed to 
+1) be more realistic, since companies have more columns per user/message, and already optimize their messaging based off of fields like `locale`
+2) emphasize Baskerville's strengths even more. When the preference is only true for one segment of all users, it's more subtle and difficult to find for the LLM and embedding baseline -- we changed the prompts to emphasize looking for differences within locales. Through **features**, one can trivially examine if response rate varies by a particular dimension

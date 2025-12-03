@@ -1,0 +1,19 @@
+{
+  "timestamp": "20251203_023404",
+  "model": "gpt-4o-mini",
+  "num_samples": 2000,
+  "seed": 42,
+  "styles": {
+    "utility": "Focus on performance benefits and what the shoe helps you do. Eg run faster, train harder, go the distance, explosive energy, lightweight speed.",
+    "urgency": "Focus on scarcity and time pressure. Eg limited stock, sale ending soon, last chance, only X left, don't miss out",
+    "value": "Focus on the deal and savings. Eg save $40, best price of the year, unbeatable deal, limited time price"
+  },
+  "locales": [
+    "US",
+    "UK",
+    "AUS"
+  ],
+  "product_description": "THE KINETIC - Performance Running Shoe\n\nThe Kinetic is our flagship running shoe designed for athletes who demand the best. Engineered with a responsive foam midsole and carbon-fiber plate, it delivers explosive energy return with every stride.\n\nKEY FEATURES:\n- Ultra-lightweight at just 7.2 oz\n- Breathable mesh upper for all-day comfort\n- Carbon-neutral manufacturing process\n- Endorsed by Usain Bolt, David Goggins\n\nPERFORMANCE:\n- Durable rubber outsole with 500+ mile lifespan\n- Responsive cushioning reduces fatigue by 23%\n- Water-resistant, performant in rain or snow\n\nPOPULARITY:\n- 50,000+ pairs sold in 2024\n- 4.8/5 star rating from verified buyers\n\nPRICING:\n- Regular price: $189\n- SALE PRICE: $149 (save $40!)\n- Limited time offer\n\nMATERIALS:\n- The upper is constructed with our proprietary AirMesh technology.\n- The midsole uses recycled ocean plastics, inline with our sustainability initiative.\n- The outsole features high-grip Continental rubber.\n\nAvailable in 12 colors. Free shipping on orders over $100.",
+  "generator_template": "You are a marketing copywriter for a shoe company. Your job is to write SMS marketing messages to promote a product.\n\nYou will be given:\n1. A PRODUCT_DESCRIPTION with details about the shoe\n2. A MARKETING_STYLE to use\n\nGenerate a single SMS marketing message (under 160 characters) that promotes the shoe using the specified style.\n\nRULES:\n- Keep it under 160 characters\n- Be creative and vary your messages\n- You may include any details from the product description that fit your style\n- Do not use hashtags\n- Include the shoe name \"Kinetic\" somewhere in the message\n\nPRODUCT_DESCRIPTION:\n{$PRODUCT_DESCRIPTION}\n\nMARKETING STYLE:\n{$MARKETING_STYLE}\n\nOutput ONLY the SMS message text, nothing else.",
+  "tagger_system": "You are analyzing marketing messages to identify which persuasion techniques are being used.\n\nGiven a marketing message, identify ALL applicable tags from the following list:\n\nTAGS:\n- utility: Message focuses on performance, functionality, or what the product helps you do\n- urgency: Message creates time pressure or scarcity (limited time, low stock, etc.)\n- value: Message emphasizes savings, deals, or price benefits\n- celebrity: Message mentions the endorsement or usage by a celebrity by name, such as Usain Bolt or David Goggins\n- sustainability: Message mentions eco-friendly aspects, recycled materials, or environmental benefits\n- weather: Message mentions the shoes are water-resistant, or perform under any weather conditions like rain or snow\n\nA message can have multiple tags. Only include tags that clearly apply.\n\nOutput a JSON object with a single key \"tags\" containing an array of applicable tag names.\n\nExample outputs:\n{\"tags\": [\"utility\"]}\n{\"tags\": [\"celebrity\", \"urgency\"]}\n{\"tags\": [\"value\", \"sustainability\"]}\n\nOutput ONLY the JSON object, nothing else."
+}

@@ -1,0 +1,35 @@
+# Embedding Baseline: K-Means + LLM Interpretation
+Overall response rate: 6.9%
+Total samples: 2000
+Locale distribution: {'US': 667, 'UK': 667, 'AUS': 666}
+
+
+## k=2
+- Cluster 0: 671 samples, 6.9% [AVG] | AUS:224, UK:230, US:217
+- Cluster 1: 1329 samples, 6.9% [AVG] | AUS:442, UK:437, US:450
+
+## k=3
+- Cluster 0: 640 samples, 7.0% [AVG] | AUS:211, UK:224, US:205
+- Cluster 1: 891 samples, 6.2% [AVG] | AUS:292, UK:295, US:304
+- Cluster 2: 469 samples, 8.1% [AVG] | AUS:163, UK:148, US:158
+
+## k=4
+- Cluster 0: 417 samples, 5.5% [AVG] | AUS:123, UK:143, US:151
+- Cluster 1: 581 samples, 7.6% [AVG] | AUS:198, UK:188, US:195
+- Cluster 2: 642 samples, 7.0% [AVG] | AUS:212, UK:224, US:206
+- Cluster 3: 360 samples, 7.2% [AVG] | AUS:133, UK:112, US:115
+
+## k=5
+- Cluster 0: 522 samples, 7.5% [AVG] | AUS:178, UK:169, US:175
+- Cluster 1: 638 samples, 7.1% [AVG] | AUS:210, UK:224, US:204
+- Cluster 2: 331 samples, 4.5% [AVG] | AUS:97, UK:118, US:116
+- Cluster 3: 284 samples, 9.5% [AVG] | AUS:98, UK:89, US:97
+- Cluster 4: 225 samples, 5.3% [AVG] | AUS:83, UK:67, US:75
+
+## k=6
+- Cluster 0: 522 samples, 7.5% [AVG] | AUS:178, UK:169, US:175
+- Cluster 1: 283 samples, 7.4% [AVG] | AUS:94, UK:100, US:89
+- Cluster 2: 360 samples, 6.7% [AVG] | AUS:117, UK:124, US:119
+- Cluster 3: 279 samples, 9.7% [AVG] | AUS:97, UK:89, US:93
+- Cluster 4: 331 samples, 4.5% [AVG] | AUS:97, UK:118, US:116
+- Cluster 5: 225 samples, 5.3% [AVG] | AUS:83, UK:67, US:75

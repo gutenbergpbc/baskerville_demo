@@ -1,0 +1,82 @@
+K-Means Clustering with k=2
+============================================================
+
+CLUSTER 0
+Size: 671 samples
+Response rate: 6.9%
+Locale distribution: {'UK': 230, 'US': 217, 'AUS': 224}
+
+Interpretation:
+Here are the identified features from the cluster of marketing SMS messages, along with their descriptions, counts, response rates, locale interactions, and insights:
+
+### 1. Feature: Emphasis on Speed and Performance
+- **Description**: Many messages highlight the concepts of "speed," "performance," and "energy return," appealing to the desire for enhanced athletic capability.
+- **Count**: 10 messages contain this feature.
+- **Response Rate**: 6.9% (overall cluster response rate).
+- **Locale Interaction**: This feature is present in both US and UK messages, indicating a universal appeal in the running shoe market.
+- **Insight**: The focus on performance resonates well with athletes and fitness enthusiasts, making it a strong selling point across different locales.
+
+### 2. Price Point Highlight
+- **Description**: All messages prominently feature the price of $149, creating a sense of urgency and value.
+- **Count**: 10 messages contain this feature.
+- **Response Rate**: 6.9% (overall cluster response rate).
+- **Locale Interaction**: The price point is consistent across all messages, suggesting a standardized pricing strategy.
+- **Insight**: Highlighting a specific price can attract budget-conscious consumers and create urgency, especially when paired with phrases like "limited time only."
+
+### 3. Use of Action-Oriented Language
+- **Description**: Phrases like "unleash," "grab yours," "conquer," and "unlock your potential" create a sense of urgency and motivation.
+- **Count**: 10 messages contain this feature.
+- **Response Rate**: 6.9% (overall cluster response rate).
+- **Locale Interaction**: This feature is effective in both US and UK messages, appealing to a broad audience.
+- **Insight**: Action-oriented language encourages immediate engagement and can drive higher response rates by motivating consumers to act quickly.
+
+### 4. Lightweight and Comfort Focus
+- **Description**: Several messages emphasize the lightweight nature of the shoe and its comfort, appealing to consumers looking for ease of use.
+- **Count**: 8 messages contain this feature.
+- **Response Rate**: 6.9% (overall cluster response rate).
+- **Locale Interaction**: Present in both US and UK messages, indicating that comfort is a universal concern among runners.
+- **Insight**: Highlighting comfort and lightweight design can attract consumers who prioritize these aspects in their running gear
+
+----------------------------------------
+
+CLUSTER 1
+Size: 1329 samples
+Response rate: 6.9%
+Locale distribution: {'US': 450, 'AUS': 442, 'UK': 437}
+
+Interpretation:
+Here’s a detailed analysis of the features identified in the marketing SMS messages cluster, along with their descriptions, prevalence, response rates, locale interactions, and insights into their effectiveness:
+
+### 1. **Discount Emphasis**
+   - **Description**: All messages prominently feature a discount of $40 off the original price of $189, emphasizing the savings.
+   - **Messages Containing Feature**: 10
+   - **Response Rate**: 6.9%
+   - **Locale Interaction**: Present across AUS, UK, and US.
+   - **Explanation**: The clear articulation of savings creates a sense of urgency and value, appealing to cost-conscious consumers in all locales.
+
+### 2. **Limited-Time Offer**
+   - **Description**: Several messages highlight the urgency of the offer by mentioning it is available for a "limited time" or that there are "only a few pairs left."
+   - **Messages Containing Feature**: 7
+   - **Response Rate**: 6.9%
+   - **Locale Interaction**: Present in AUS, UK, and US.
+   - **Explanation**: This feature leverages scarcity and urgency, prompting quicker decision-making among consumers, which can be effective across different markets.
+
+### 3. **Performance-Oriented Language**
+   - **Description**: Messages emphasize performance-related benefits, such as "engineered for peak performance," "unlock your peak performance," and "experience explosive energy."
+   - **Messages Containing Feature**: 8
+   - **Response Rate**: 6.9%
+   - **Locale Interaction**: Present in AUS, UK, and US.
+   - **Explanation**: Focusing on performance appeals to athletes and fitness enthusiasts, making the messages resonate with a target audience interested in high-quality running shoes.
+
+### 4. **Use of Emojis**
+   - **Description**: Some messages incorporate emojis (e.g., 🚨, 🏃‍♂️💨) to add a visual element and convey excitement.
+   - **Messages Containing Feature**: 3
+   - **Response Rate**: 6.9%
+   - **Locale Interaction**: Present in UK and US messages.
+   - **Explanation**: Emojis can make messages more engaging and relatable, particularly among younger demographics or in more casual markets.
+
+### 5. **Call to Action (CTA) Phrasing**
+   - **Description**: Strong CT
+
+----------------------------------------
+
