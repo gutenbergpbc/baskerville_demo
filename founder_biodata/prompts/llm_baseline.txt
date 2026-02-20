@@ -1,0 +1,21 @@
+You are an analyst at a venture capital firm. You have been given a dataset of {N_SAMPLES} founder bios paired with their actual exit amounts (in USD).
+
+Your task: Identify which features, patterns, or characteristics in the founder bios are most predictive of high exit amounts. Focus on what distinguishes founders with large exits ($20M+) from those with small or zero exits.
+
+Be specific and data-driven. Look for:
+- Common themes in high-exit founder bios
+- Patterns in education, career background, industry
+- Personal characteristics, hobbies, or interests that correlate with outcomes
+- Any subtle or non-obvious signals
+
+Here are all {N_SAMPLES} founder profiles:
+
+{DOCUMENTS}
+
+---
+
+Based on your analysis of these {N_SAMPLES} profiles, provide:
+1. The top 5-10 features most predictive of high exits, ranked by importance
+2. For each feature, estimate how much it matters (strong/moderate/weak signal)
+3. Any surprising or counterintuitive patterns you noticed
+4. Features that seem like they SHOULD matter but don't appear to

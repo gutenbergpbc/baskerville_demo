@@ -1,0 +1,45 @@
+As an analyst reviewing this batch of 80 founder profiles (specifically focusing on the provided samples 1121–1200), I have identified several high-signal patterns. While many founders in this set have impressive "FAANG" resumes, the data suggests that specific combinations of **industry choice**, **educational background**, and **personal temperament** are the strongest predictors of a $20M+ exit.
+
+### 1. Features Predictive of High Exits ($20M+)
+High-exit founders in this data set (e.g., Founders 1148, 1152, 1166, 1174, 1190) share a "Hard-Tech/High-Complexity" profile.
+
+*   **The "Physics/Math + Hard Industry" Combo:** Founders with degrees in **Physics, Mathematics, or Statistics** who apply those skills to "unsexy" infrastructure (Logistics, Grid Resilience, Developer Tools) outperform those in "soft" SaaS.
+    *   *Frequency:* ~80% of the $20M+ exits in this batch.
+    *   *Example:* Founder 1174 (Physics PhD, $36M exit), Founder 1152 (Statistics/MechEng, $111M exit).
+*   **Regulatory Mastery as a Moat:** High-exit founders do not "disrupt" regulations; they integrate them. Profiles that mention **Regulatory Compliance** or **Legal backgrounds (JD)** as a primary product feature correlate with massive outcomes.
+    *   *Frequency:* High (Founders 1137, 1148, 1190).
+*   **The "Stabilizer" Temperament:** Unlike the "move fast and break things" trope, high-exit bios frequently use words like **"Deliberate," "Quiet," "Methodical," "Stoic,"** and **"Surgical."** They are often described as the "adult in the room."
+    *   *Frequency:* Very High in $10M+ exits.
+*   **Specific Hobbies (The "Precision" Signal):** There is a non-obvious correlation between high exits and hobbies requiring extreme patience and environmental calibration: **Birdwatching, Sailing, and Crossword Puzzles.**
+    *   *Frequency:* Found in 4 of the top 6 exits.
+
+### 2. Features Predictive of Small or Zero Exits
+Many "failed" or low-exit profiles ($0 - $500k) look "perfect" on paper but contain specific "trap" signals.
+
+*   **The "Consultant/MBA Overload":** Founders whose bios lean heavily on **McKinsey, BCG, or Deloitte** experience without a corresponding "deep-tech" tenure (like SpaceX or Tesla) often result in $0 exits. They are "process-heavy" but "product-light."
+    *   *Frequency:* High (Founders 1128, 1158, 1167, 1185).
+*   **The "Charisma Trap":** Bios that lead with **"Charismatic," "Magnetic," "Visionary,"** or **"High-Energy"** frequently correlate with $0 or very small exits. These founders often struggle with the "messy middle" of operations.
+    *   *Example:* Founder 1149 ($0 exit), Founder 1130 ($0 exit).
+*   **EdTech & FoodTech "Cursed" Verticals:** In this specific batch, FoodTech and EdTech founders—even those with PhDs and Google/Amazon experience—consistently see $0 or sub-$200k exits.
+    *   *Frequency:* ~90% of Food/EdTech in this batch failed to reach a significant exit.
+*   **"Hobbyist" Technical Skills:** Founders who "taught themselves to code" or "dabbled in blockchain" while holding non-technical roles (History/Lit majors) show lower exit amounts than those with "Hard Engineering" degrees (Electrical/Mechanical/Biomedical).
+
+### 3. Surprising & Non-Obvious Signals
+
+*   **The "History Major" Pivot:** Interestingly, several founders with **History or Literature degrees** who *then* worked in high-level Engineering roles (e.g., Founder 1137, $3.7M exit; Founder 1159, $774k) perform better than pure Business majors, likely due to superior **Technical Writing** and systems-narrative skills.
+*   **The "Parental/Community" Signal:** Founders who **coach youth sports** or **volunteer at food banks** (Founders 1127, 1138, 1141) show higher resilience and higher mid-tier exits ($1M - $8M). This suggests a "service-leader" mentality that reduces team churn.
+*   **The "Physicality" of Hobbies:** High-exit founders almost exclusively prefer **tactile/physical hobbies** (Woodworking, Pottery, Sculpture, Competitive Swimming) over digital ones. This suggests a need to interact with "unforgiving" physical constraints that mirrors "hard-tech" entrepreneurship.
+
+### 4. Summary Table & Confidence Levels
+
+| Feature | Correlation | Confidence |
+| :--- | :--- | :--- |
+| **Physics/Math Degree** | High Exit | **High** |
+| **Birdwatching/Sailing** | High Exit | **Medium** (Niche signal) |
+| **Regulatory/Compliance Focus** | High Exit | **High** |
+| **"Charismatic" Descriptor** | Low/Zero Exit | **Medium** |
+| **EdTech/FoodTech Vertical** | Low/Zero Exit | **High** (for this batch) |
+| **Technical Writing Mastery** | High Exit | **Medium** |
+| **Ex-Tesla/SpaceX Operations** | High Exit | **High** |
+
+**Final Recommendation:** Bet on the "Quiet Architect" (Founder 1174/1152 type) over the "High-Energy Growth Hacker" (Founder 1149/1181 type). Look for founders who treat their company like a **Physics problem** rather than a **Marketing problem.**

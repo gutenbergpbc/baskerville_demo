@@ -1,0 +1,43 @@
+As an analyst reviewing this batch of 80 founder profiles, I have identified several distinct patterns that separate high-exit outcomes ($20M+) from small or zero-exit outcomes. 
+
+The most striking takeaway is that **"Operational Generalists" with high-stakes corporate experience** significantly outperform **"Technical Specialists" or "Visionary Academics"** in this dataset.
+
+---
+
+### 1. Features Predictive of High Exit Amounts ($20M+)
+
+| Feature | Frequency in High-Exit Bios | Analysis & Context | Confidence |
+| :--- | :--- | :--- | :--- |
+| **"The Big Three" Career Tour** | ~75% | Founders who spent 3–5 years at **Apple, Netflix, or Stripe** specifically (rather than Google/Meta) show the highest exits. These companies are noted in the bios for "ruthless efficiency" and "UX/Engineering marriage." | **High** |
+| **Bootstrapped Roots** | ~60% | High-exit founders (e.g., Founder 8, 32, 39) often have a 3–5 year stint in a **bootstrapped e-commerce** or "low-margin" environment. This breeds a "unit economics first" mentality that prevents over-spending. | **High** |
+| **The "Chief of Staff" Role** | ~50% | This is a massive signal. Founders who served as CoS at major firms (JPMorgan, Morgan Stanley, Palantir) have the "strategic peripheral vision" to navigate exits. (e.g., Founder 18, 67, 75). | **High** |
+| **Specific Hobbies: High-Stakes Games** | ~45% | **Poker and Magic: The Gathering** are highly correlated with $20M+ exits. These hobbies suggest a comfort with probabilistic risk and "resource management" under pressure. | **Medium** |
+| **Pricing Strategy Obsession** | ~70% | High-exit bios explicitly mention the founder's personal involvement in **pricing models and unit economics**, rather than delegating it to a CFO. | **High** |
+| **Physical Intensity** | ~65% | Competitive **Boxing, Martial Arts, or Rock Climbing** appear frequently. These are "individual-accountability" sports compared to team sports. | **Medium** |
+
+---
+
+### 2. Features Predictive of Low or Zero Exits
+
+| Feature | Frequency in Low-Exit Bios | Analysis & Context | Confidence |
+| :--- | :--- | :--- | :--- |
+| **"Consensus-Driven" Leadership** | ~80% | Founders described as "seeking consensus," "averse to top-down decrees," or "waiting for everyone to feel heard" (e.g., Founder 19, 21, 23, 80) almost universally have $0 or small exits. | **High** |
+| **Academic "Purity" (PhDs/MDs)** | ~70% | Founders who stayed in academia or research labs for 5+ years before founding (e.g., Founder 2, 15, 41) often fail. They tend to "obsess over the physics" rather than the market. | **Medium** |
+| **The "Non-Profit" Detour** | ~50% | A stint in a non-profit or education-focused NGO (unless it was a high-growth YC startup) correlates with lower financial exits, possibly due to a lack of "killer instinct" regarding margins. | **Medium** |
+| **"Quiet/Methodical" to a Fault** | ~60% | Bios that emphasize "stillness," "not moving quickly," or "waiting for the noise to settle" (e.g., Founder 2, 10, 16) are frequently associated with $0 exits. | **Medium** |
+| **Tactile/Slow Hobbies** | ~55% | **Pottery, Sourdough Baking, and Fermentation** appear disproportionately in the $0–$200k exit range. These hobbies reward "waiting," which may conflict with the "bias toward action" needed for a large exit. | **Low** |
+
+---
+
+### 3. Surprising or Non-Obvious Patterns
+
+*   **The "Physics-to-Finance" Bridge:** Founders who studied **Physics or Mechanical Engineering** but then worked at **Goldman Sachs or JPMorgan** are the "Goldilocks" profile. They have the technical depth to build but the "capital-as-tool" mindset to exit. (e.g., Founder 42, 75).
+*   **The "Seattle/Toronto" Moat:** While many $0 exits are in Berlin or Stockholm (often due to "consensus culture"), the highest exits in this batch are concentrated in **Toronto and Seattle**. These founders seem to benefit from "Silicon Valley-level talent" without the "Silicon Valley echo chamber."
+*   **The "History Buff" Signal:** A surprising number of high-exit founders (Founder 17, 39, 71) are **History or English Lit** majors who later became technical. This "narrative" ability allows them to sell the company to acquirers more effectively than pure engineers.
+*   **The "Apple" Effect vs. "Google" Effect:** In this data, former **Google** employees often have smaller exits (more likely to be "consultative" or "bureaucratic"), whereas former **Apple** employees have massive exits (more likely to be "product-obsessed" and "closed-loop thinkers").
+
+### 4. Summary Recommendation for the Firm
+If we are looking for the next $100M+ exit, we should prioritize the **"Aggressive Generalist"**:
+1.  **Education:** Hard Science (Physics/Math) + Strategy/Law.
+2.  **Experience:** 3+ years at a "High-Friction" Corporate (Stripe/SpaceX/Goldman) + 3+ years in a "Scrappy" environment (Bootstrapped/YC).
+3.  **Red Flag:** Any mention of "Consensus-based leadership" or "Monastic stillness." We want the founder who "sketches the solution on a napkin" and "boxes on weekends."

@@ -1,0 +1,35 @@
+Embedding Baseline Summary
+Samples: 2000
+Overall avg exit: $12,231,658
+Overall median exit: $141,358
+
+k=2:
+  Cluster 0: 1027 founders, $10,371,419 avg, 11.3% big exits
+  Cluster 1: 973 founders, $14,195,138 avg, 12.0% big exits
+
+k=3:
+  Cluster 0: 325 founders, $11,091,559 avg, 13.5% big exits
+  Cluster 1: 703 founders, $10,086,729 avg, 10.4% big exits
+  Cluster 2: 972 founders, $14,164,187 avg, 11.9% big exits
+
+k=4:
+  Cluster 0: 498 founders, $10,902,298 avg, 11.7% big exits
+  Cluster 1: 300 founders, $16,086,569 avg, 11.3% big exits
+  Cluster 2: 673 founders, $13,352,004 avg, 12.3% big exits
+  Cluster 3: 529 founders, $9,871,650 avg, 11.0% big exits
+
+k=5:
+  Cluster 0: 366 founders, $9,243,002 avg, 10.1% big exits
+  Cluster 1: 560 founders, $13,963,277 avg, 12.7% big exits
+  Cluster 2: 225 founders, $9,534,675 avg, 11.6% big exits
+  Cluster 3: 437 founders, $11,824,912 avg, 12.4% big exits
+  Cluster 4: 412 founders, $14,437,268 avg, 10.9% big exits
+
+k=6:
+  Cluster 0: 119 founders, $8,698,008 avg, 10.9% big exits
+  Cluster 1: 161 founders, $16,480,529 avg, 19.9% big exits
+  Cluster 2: 408 founders, $8,062,424 avg, 9.1% big exits
+  Cluster 3: 458 founders, $10,280,815 avg, 10.3% big exits
+  Cluster 4: 342 founders, $13,663,818 avg, 13.4% big exits
+  Cluster 5: 512 founders, $15,827,697 avg, 11.3% big exits
+

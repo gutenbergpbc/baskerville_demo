@@ -1,0 +1,6 @@
+Based on an analysis of the 80 founder profiles provided, here is the breakdown of features and patterns predictive of high exits ($20M+) versus small or zero exits.
+
+### 1. Features Predictive of High Exits ($20M+)
+Founders with high exits in this batch (e.g., Founders 1380, 1392, 1420, 1410, 1430) share specific characteristics that differentiate them from the rest of the cohort.
+
+*   **The "Institutional Hardening" Pattern (High Frequency):** High-exit founders often have a career path that includes a

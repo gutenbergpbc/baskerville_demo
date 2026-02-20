@@ -1,0 +1,19 @@
+You are analyzing clusters of startup founder bios. This cluster contains {CLUSTER_SIZE} founders with an average exit amount of ${AVG_EXIT:,.0f} (median: ${MEDIAN_EXIT:,.0f}).
+
+For context, the overall dataset average is ${OVERALL_AVG:,.0f} (median: ${OVERALL_MEDIAN:,.0f}).
+
+Here is a random sample of {SAMPLE_SIZE} bios from this cluster:
+
+{MESSAGES}
+
+---
+
+Describe the common themes and characteristics of founders in this cluster. What distinguishes them? Consider:
+- Educational backgrounds
+- Career trajectories
+- Industries and company types
+- Personal interests and hobbies
+- Leadership styles
+- Any other patterns
+
+Be specific about what makes this cluster cohesive.

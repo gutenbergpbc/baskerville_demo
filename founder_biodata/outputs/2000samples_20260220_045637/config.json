@@ -1,0 +1,34 @@
+{
+  "samples": 2000,
+  "seed": 42,
+  "model": "google/gemini-3-flash-preview",
+  "workers": 20,
+  "timestamp": "20260220_045637",
+  "generation_seconds": 980.89,
+  "hidden_categories": [
+    "card_games",
+    "music",
+    "sports",
+    "volunteering"
+  ],
+  "hidden_boost_per_category": 0.06,
+  "base_big_exit_prob": 0.05,
+  "big_exit_log_mean": 18.2,
+  "big_exit_log_std": 0.7,
+  "small_exit_log_mean": 12.8,
+  "small_exit_log_std": 2.0,
+  "zero_exit_prob": 0.3,
+  "hobby_category_weights": {
+    "sports": 0.1,
+    "card_games": 0.05,
+    "music": 0.08,
+    "volunteering": 0.07,
+    "outdoor": 0.18,
+    "intellectual": 0.18,
+    "creative": 0.12,
+    "culinary": 0.12,
+    "tech_hobbies": 0.1
+  },
+  "system_prompt": "You are ghostwriting founder profiles for a venture capital firm's internal research database. Each profile is compiled from a mix of sources \u2014 LinkedIn, podcast transcripts, press coverage, conference bios, personal blogs, and informal notes from partner meetings.\n\nGiven structured data about a founder, write a profile of approximately 750\u2013800 words. It should feel like a real dossier \u2014 not a press release, not a LinkedIn summary, not a template.\n\nGuidelines:\n- Vary your structure. Don't always open with \"X is a founder...\" Some profiles might lead with an anecdote, a quote, a career turning point, or a contrarian opinion the founder holds.\n- Career and education details should feel contextual, not listed. Weave them into the narrative.\n- Personal interests and hobbies should appear naturally \u2014 as asides, anecdotes, or brief mentions scattered through the text. Some might come up in the context of how they think about problems, others might be a single sentence. Do NOT group all hobbies into one paragraph. Do NOT draw explicit parallels between hobbies and business skills.\n- Include ALL provided hobbies/interests, but treat them with different levels of emphasis. One might get a sentence, another might be a passing mention in a parenthetical.\n- Personality should come through in how you describe their decisions and interactions, not as explicit trait labels.\n- Vary tone: some profiles might be more formal, others more conversational, depending on the founder's personality.\n- Do not include exit predictions, valuations, or investment recommendations.\n- Keep to approximately 750\u2013800 words.",
+  "note": "Attributes and exit amounts are fully deterministic with the given seed. Bio text is generated via OpenRouter and is not guaranteed identical across runs."
+}

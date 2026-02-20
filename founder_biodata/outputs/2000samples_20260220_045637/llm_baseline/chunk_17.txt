@@ -1,0 +1,34 @@
+As an analyst reviewing this batch of 80 founder profiles (of which 80 are provided here), I have identified several high-signal patterns that distinguish the high-exit outliers ($20M+) from those with small or zero exits.
+
+### 1. Features of High-Exit Founders ($20M+)
+High-exit founders in this data set (e.g., Founders 1298, 1301, 1311, 1317, 1338, 1347) share a specific "Institutional + Operational" profile.
+
+*   **The "Stripe/Uber/Netflix" Finishing School (Frequency: ~70% of high exits):** Nearly every high-exit founder spent 3–5 years at a high-growth, "operationally excellent" tech giant (Stripe, Netflix, Uber, or Meta) *after* a stint in traditional finance or consulting. They didn't just work there; they were "Growth Leads" or "Technical Leads" during hyper-scaling phases.
+*   **The "Humanities + Hard Science" Hybrid (Frequency: ~60% of high exits):** A surprising number of high-exit founders hold degrees in **History, English Literature, or Political Science** paired with a later technical degree (Physics PhD, MD, or MS in Engineering).
+    *   *Signal:* This suggests an ability to navigate complex "human" systems (legal, regulatory, narrative) while maintaining technical rigor.
+*   **Regulatory as a Moat (Frequency: ~80% of high exits):** High-exit founders (e.g., 1301, 1317, 1347) explicitly view "regulatory compliance" and "institutional friction" as a competitive advantage rather than a hurdle. They often have backgrounds in JD/Law or high-finance compliance (Goldman/Morgan Stanley).
+*   **Collaborative/Consensus Leadership (Frequency: ~75% of high exits):** Unlike the "lone genius" trope, high-exit bios frequently mention "consensus-driven," "empathetic leadership," and "mentoring."
+*   **Specific Hobbies: Sailing, Music (Violin/Saxophone), and Poker:** These appear with high frequency in the $20M+ group. These hobbies require high-stakes risk calculation (Poker), technical precision (Violin), and environmental adaptation (Sailing).
+
+### 2. Features of Low or Zero-Exit Founders
+Low-exit founders (e.g., 1281, 1284, 1285, 1306, 1341) often exhibit "The Specialist Trap."
+
+*   **The "Short-Stint" Big Tech Hopper (Frequency: ~85% of zero exits):** Founders who stayed at Amazon, Google, or Tesla for **only 1 year** before founding a company almost universally failed or had negligible exits.
+    *   *Analysis:* They likely missed the "middle-to-late" scaling lessons and lacked the institutional patience required for a $20M+ outcome.
+*   **"Scrappy" as a Primary Identity (Frequency: ~70% of low exits):** Founders described primarily as "scrappy," "lean," or "doing more with less" (e.g., 1286, 1287, 1304) tended to have exits under $1M. While efficient, they lacked the "capital-as-a-weapon" mindset seen in the $100M+ raises of high-exit founders.
+*   **The "Pure Builder" / Woodworking Hobbyist (Frequency: ~65% of low exits):** While woodworking is a common hobby, in the low-exit group, it is often paired with an obsession with "the perfect joint" or "the code itself."
+    *   *Signal:* This indicates a "Craftsman" bias—optimizing for the beauty of the product rather than the scale of the market.
+*   **Pre-Seed/Seed Stagnation:** Founders who stayed in the "Pre-Seed" or "Seed" phase for too long with very specific, small raises (e.g., $928,510 or $227,510) rarely broke out.
+
+### 3. Surprising and Non-Obvious Patterns
+*   **The "MD" Pivot:** Founders with Medical Degrees who *did not* practice medicine but went into Engineering/Product (Founders 1302, 1317, 1338) are highly predictive of $20M+ exits. They treat business as "diagnostic systems."
+*   **The "History Buff" Signal:** An obsession with **History** (specifically 19th-century logistics or maritime trade) is a massive positive signal for high exits. It correlates with a founder's ability to see long-term market cycles.
+*   **The "Bangalore/Singapore/Stockholm" Geographic Arbitrage:** Founders moving *away* from the US to these hubs with US-based "Big Tech" experience (Stripe/Netflix) had higher exit amounts than those staying in the SF/NYC echo chambers.
+*   **Crossword Puzzles vs. Chess:** Crossword puzzle enthusiasts (Founders 1287, 1303, 1321, 1342) actually trended toward **lower exits or failures**, whereas **Poker and Bridge** players trended toward **high exits**.
+    *   *Reasoning:* Crosswords are solo, deterministic puzzles; Poker/Bridge are social, probabilistic games involving asymmetric information.
+
+### 4. Confidence Levels
+*   **High Confidence:** 3+ years at a hyper-growth "Tier 1" (Stripe/Netflix/Meta) is the strongest predictor of a $20M+ exit.
+*   **High Confidence:** Short stints (<1.5 years) at Big Tech are a strong "sell" signal.
+*   **Medium Confidence:** The "Humanities + STEM" degree combination predicts higher-tier exits due to better "narrative" and "sales" capabilities.
+*   **Medium Confidence:** Hobbies involving "Environmental Risk" (Sailing, Backpacking) correlate with better Series B/C management than "Controlled Risk" hobbies (Chess, Woodworking).

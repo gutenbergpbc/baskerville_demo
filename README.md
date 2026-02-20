@@ -4,18 +4,19 @@ Synthetic datasets to test discovering hidden features in data
 
 Explanation + video here: [http://gutenberg.ai/baskerville](http://gutenberg.ai/baskerville)
 
-kinetic/ is an example with short text, single label
-todo
-- multivariate kinetic
-- longer conversations
-- longer trajectories
+| Dataset | Text Length | Outcome | Hidden Signal |
+|---------|------------|---------|---------------|
+| `kinetic/` | Short (SMS) | Binary (interested/not) | Sustainability mentions → higher response |
+| `kinetic_multivariate/` | Short (SMS) + locale | Binary | Locale-specific style preferences |
+| `founder_biodata/` | Long (~800 words) | Continuous (exit $) | Hobby categories → higher exit probability |
 
 ## Quick Start
 ```
 pip install -r requirements.txt
 
-# in ~/.env, set OPENAI_API_KEY
+# in ~/.env, set API keys
 OPENAI_API_KEY=...
+OPENROUTER_API_KEY=...  # for founder_biodata
 
 # seed set for reproducibility. Not 100% guaranteed
 cd kinetic
@@ -60,3 +61,11 @@ The prompts/tags have been tweaked to not explicitly encourage talking about cel
 This is designed to 
 1) be more realistic, since companies have more columns per user/message, and already optimize their messaging based off of fields like `locale`
 2) emphasize Baskerville's strengths even more. When the preference is only true for one segment of all users, it's more subtle and difficult to find for the LLM and embedding baseline -- we changed the prompts to emphasize looking for differences within locales. Through **features**, one can trivially examine if response rate varies by a particular dimension
+
+## founder biodata
+2,000 founder bios (~800 words each) with exit amounts in USD. Four hobby categories (sports, card games, music, volunteering) are hidden features that boost the probability of a big exit ($20M+):
+```python
+p_big_exit = 0.05 + 0.06 * n_hidden_categories
+# 0 hidden → 5%, 1 → 11%, 2 → 17%, 3 → 23%
+```
+Hobbies are woven naturally into long-form prose — not tagged or listed — making them invisible to embedding clusters and hard for LLMs to isolate from the many other attributes (education, career, personality, industry) that are randomly assigned with zero correlation to exits. All 4 features are individually significant (Fisher's exact p < 0.02) at n=2,000. See `founder_biodata/README.md` for details.

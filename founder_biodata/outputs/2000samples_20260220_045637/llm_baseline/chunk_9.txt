@@ -1,0 +1,32 @@
+As an analyst reviewing this batch of 80 founder profiles (specifically focusing on the provided samples 641–720), I have identified several high-signal patterns that distinguish founders with **High Exits ($20M+)** from those with **Small or Zero Exits ($0 - $5M)**.
+
+### 1. Features of High-Exit Founders ($20M+)
+*Founders in this category (e.g., 656, 664, 669, 676, 679) share a specific "Elite Generalist" profile.*
+
+*   **The "Big Tech VP/Director" Pedigree (High Frequency):** High-exit founders almost universally held high-level leadership roles at **Apple, Google, Netflix, or Facebook (Meta)**. Crucially, they stayed for 2–5 years, suggesting they didn't just "pass through" but managed significant scale (e.g., Founder 656 at Apple, 679 at Google).
+*   **The "Humanities-to-Hard-Tech" Pivot:** A surprising number of high-exit founders started with **History, English Literature, or Political Science** degrees before getting a technical MS or PhD (e.g., 664: History to AI/ML; 669: English Lit to Biotech CTO; 676: History to Data Science). This suggests superior communication and "systems storytelling" skills.
+*   **Strategic Consulting "Finishing School":** Experience at **McKinsey, BCG, or Bain** is a massive predictor of $20M+ exits when paired with a technical background. It provides the "C-suite language" necessary for the large enterprise acquisitions that drive high exit amounts.
+*   **Hobby: High-Stakes Strategy or Physical Endurance:** High-exit founders often engage in **Sailing, Competitive Bridge, or Marathon running**. These hobbies require long-term tactical planning and the ability to manage environmental variables (e.g., 656, 664, 676).
+*   **Location Hubs:** High exits in this batch are concentrated in **New York, Seattle, and Sydney**, rather than just the Silicon Valley bubble.
+
+### 2. Features of Low/Zero-Exit Founders ($0 - $5M)
+*Founders in this category (e.g., 641, 642, 651, 653, 671, 685) often suffer from "The Specialist's Trap."*
+
+*   **The "Academic Purist" (High Frequency):** Founders who move directly from a **PhD (Chemistry/Neuroscience)** to a startup without a significant "commercial middle" (like a VP role at a mid-stage company) frequently hit $0 exits. They often over-engineer the product (e.g., 641, 642).
+*   **"Founder-as-Celebrity" / High-Decibel Energy:** Bios that emphasize "infectious energy," "high-decibel," "chaotic," or "restless" personalities correlate strongly with $0 exits (e.g., 641, 685). These founders often burn out teams or pivot too frequently.
+*   **The "Chief of Staff" Trap:** While "Chief of Staff" sounds prestigious, in this data set, it often leads to $0 or small exits (e.g., 651, 678, 699). This may be because the role is administrative/reactive rather than P&L-owning or product-architecting.
+*   **Hyper-Niche Hobbies:** Interests like **Ham Radio, Birdwatching, or Retro Computing** appear disproportionately in the $0 exit group (e.g., 641, 646, 650, 659, 672, 674). While intellectually stimulating, these may signal a preference for "tinkering" over "scaling."
+*   **The "Consensus" Leader:** Founders described as "empathetic," "consensus-driven," or "prioritizing team wellbeing" over-index in the $0–$1M range (e.g., 642, 651, 695). While good for culture, they may lack the "shark" instinct required for a massive exit.
+
+### 3. Surprising or Non-Obvious Patterns
+*   **The "MD" Factor:** Having a Medical Degree (MD) but *not* practicing medicine is a neutral-to-negative signal for exits unless paired with a Series C growth role. Most MD-founders in this batch (650, 662, 672, 702) had $0 or sub-$1M exits.
+*   **The "Crossword/Puzzle" Signal:** Founders who obsess over the **Sunday NYT Crossword** or **Go/Chess** are almost exclusively in the "failed or small exit" category (642, 648, 649, 653, 688). This suggests a mind that enjoys "solved" problems rather than the "unsolved/messy" problems of market creation.
+*   **The "Woodworking" Correlation:** Woodworking appears in both $0 and $100M+ profiles (661 vs 664). However, in high-exit profiles, it is described as "structural/architectural," whereas in $0 profiles, it is "tactile/meditative."
+*   **The "Series C" Mirage:** Several founders (641, 645, 653) are described as leading "Series C Powerhouses" with $100M+ raised, yet their exit is **$0**. This highlights a pattern of **over-capitalization** where the liquidation preference likely wiped out the founder, or the company imploded despite the "vanity" metrics of fundraising.
+
+### 4. Confidence Levels
+*   **High Confidence:** Big Tech (Director/VP level) + Strategic Consulting = High Exit.
+*   **High Confidence:** Direct PhD-to-Founder (without corporate scaling experience) = High Failure Risk.
+*   **Medium Confidence:** Humanities undergraduate degree = Better "Visionary" scaling than pure CS/Engineering degrees.
+*   **Medium Confidence:** "Tinkerer" hobbies (Ham Radio/Retro Computing) = Lower exit probability.
+*   **Low Confidence:** Geographic location (The data shows high exits in Sydney/Stockholm, which may be an anomaly of this specific batch).
